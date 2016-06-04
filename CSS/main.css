@@ -1,3 +1,118 @@
-h1 {
- color:green;   
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;  
+}
+
+body {
+ font-family: Biryani, arial;
+ color: #bcbbbb;
+}
+
+.row {
+    width:100%;
+    display: flex; 
+}
+
+.top_row {
+    border-bottom: solid .2em #bcbbbb;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    margin: .35em;
+    overflow: auto;
+}
+
+.col-1 {
+    width: 8.33%;
+    
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 64.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.title_left {
+     
+}
+
+.title_right {
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+.title_right h1 {
+    font-weight:100;
+    font-size:3em;
+}
+
+.title_right p {
+    font-weight:600;
+    font-size:1em;
+}
+
+.bottom_row {
+    display: flex; 
+    text-align: center;
+}
+
+h2 {
+    margin: .3em 2em; 
+    text-transform: uppercase;
 }
