@@ -20,7 +20,8 @@ time, mark, audio, video {
 }
 
 body {
- font-family: Biryani, arial;
+ font-family: Lato, arial;
+ font-weight: 900;
  color: #bcbbbb;
 }
 
@@ -35,7 +36,6 @@ body {
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
     margin: .35em;
-    overflow: auto;
 }
 
 .col-1 {
@@ -98,12 +98,12 @@ body {
 }
 
 .title_right h1 {
-    font-weight:100;
+    font-weight:300;
     font-size:3em;
 }
 
 .title_right p {
-    font-weight:600;
+    font-weight:900;
     font-size:1em;
 }
 
